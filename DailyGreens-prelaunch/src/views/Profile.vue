@@ -10,6 +10,7 @@
           <div class="md-layout">
             <div class="md-layout-item md-size-50 mx-auto">
               <div class="profile">
+                <h1>Meet the Daily Greens team!</h1>
                 <div class="avatar">
                   <img
                     :src="img"

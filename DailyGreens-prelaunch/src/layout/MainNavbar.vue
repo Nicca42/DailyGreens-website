@@ -50,7 +50,7 @@
                           </a>
                         </li>
                         <li>
-                          <a href="../views/Profile.vue">
+                          <a href="#/profile">
                             <i class="material-icons">content_paste</i>
                             <p>Documentation</p>
                           </a>
@@ -62,7 +62,7 @@
               </li>
 
               <md-list-item
-                href="../views/Login.vue"
+                href="#/landing"
                 v-if="showDownload"
               >
                 <i class="material-icons">content_paste</i>
@@ -70,7 +70,7 @@
               </md-list-item>
 
               <md-list-item
-                href="../views/Login.vue"
+                href="#/login"
                 v-if="showDownload"
               >
                 <i class="material-icons">content_paste</i>
@@ -78,7 +78,7 @@
               </md-list-item>
 
               <md-list-item
-                href="../views/Login.vue"
+                href="#/profile"
                 v-if="showDownload"
               >
                 <i class="material-icons">content_paste</i>
